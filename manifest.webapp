@@ -1,0 +1,11 @@
+{
+  "name": "OWAProtractor",
+  "description": "Measure angles using sensors",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "ododos"
+  },
+  "icons": {
+    "128": "/style/icons/protractor-128.png"
+  }
+}

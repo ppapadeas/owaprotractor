@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+
+        <title>Test Sensors</title>
+
+        <!-- Load up the controller code. -->
+        <script src="physical-events.js"></script>
+    </head>
+    
+    <body onload="drawCanvas();">
+
+        <p>orientation.alpha: <span id="orientation-alpha"></span></p>
+        <p>orientation.beta: <span id="orientation-beta"></span></p>
+        <p>orientation.gamma: <span id="orientation-gamma"></span></p>
+<div>
+        <canvas id="myCanvas" width="30" height="30">
+            <p>Your browser doesn't support canvas.</p>
+        </canvas>
+    </div>
+   
+
+    </body>
+</html>
